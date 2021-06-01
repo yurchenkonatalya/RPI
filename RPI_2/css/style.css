@@ -1,0 +1,87 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+body {
+  padding: 20px;
+  background: ivory;
+}
+
+#content {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#tip-box-cross {
+  color: white;
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+  transition: color .5s;
+}
+
+#tip-box-cross:hover {
+  color: #FFD700;
+}
+
+#card-header {
+  margin: 20px 0;
+  font: 2em 'Didot', serif;
+  color: white;
+  text-align: center;
+}
+
+#slider {
+  text-align: center;
+}
+
+#tip-box-dots {
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.dot {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.dot, #prev-card-button, #next-card-button {
+  color: lightpink;
+  transition: color .3s;
+}
+
+.dot:hover, #prev-card-button:hover, #next-card-button:hover {
+  color: deeppink;
+}
+
+#next-card-button {
+  margin-left: 10px;
+}
+
+#cb-lbl {
+  font: 400 1em 'Montserrat', sans-serif;
+  color: white;
+}
+
+#dont-show-checkbox {
+  margin-left: 10px;
+}
+
+#buttonStart {
+  background-color: lightpink;
+  width: 500px;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+}
